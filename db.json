@@ -1,5 +1,5 @@
 {
-  "questions": [
+  "react": [
     {
       "question": "Which is the most popular JavaScript framework?",
       "options": ["Angular", "React", "Svelte", "Vue"],
@@ -134,6 +134,665 @@
       ],
       "correctOption": 3,
       "points": 20
+    }
+  ],
+
+  "html": [
+    {
+      "question": "What is HTML?",
+      "options": [
+        "HTML describes the structure of a webpage",
+        "HTML is the standard markup language mainly used to create web pages",
+        "HTML consists of a set of elements that helps the browser how to view the content",
+        "All of the mentioned"
+      ],
+      "correctOption": 3,
+      "points": 10
+    },
+    {
+      "question": "Who is the father of HTML?",
+      "options": [
+        "Rasmus Lerdorf",
+        "Tim Berners-Lee",
+        "Brendan Eich",
+        "Sergey Brin"
+      ],
+      "correctOption": 1,
+      "points": 10
+    },
+    {
+      "question": "HTML stands for ________",
+      "options": [
+        "HyperText Markup Language",
+        "HyperText Machine Language",
+        "HyperText Marking Language",
+        "HighText Marking Language"
+      ],
+      "correctOption": 0,
+      "points": 10
+    },
+    {
+      "question": "What is the correct syntax of doctype in HTML5?",
+      "options": [
+        "</doctype html>",
+        "<doctype html>",
+        "<doctype html!>",
+        "<!doctype html>"
+      ],
+      "correctOption": 3,
+      "points": 10
+    },
+    {
+      "question": "Which of the following is used to read an HTML page and render it?",
+      "options": ["Web server", "Web network", "Web browser", "Web matrix"],
+      "correctOption": 2,
+      "points": 10
+    },
+    {
+      "question": "Which of the following is not a difference between HTML and XHTML?",
+      "options": [
+        "Charset in both html and xhtml is “text/html”",
+        "Tags and attributes are case-insensitive in HTML but not in XHTML",
+        "Special characters must be escaped using character entities in XHTML unlike HTML",
+        "Charset in html is “text/html” where as in xhtml it is “application/xml+xhtml”"
+      ],
+      "correctOption": 0,
+      "points": 10
+    },
+    {
+      "question": "Which of the following tag is used for inserting the largest heading in HTML?",
+      "options": ["head", "<h1>", "<h6>", "heading"],
+      "correctOption": 1,
+      "points": 10
+    },
+    {
+      "question": "What is DOM in HTML?",
+      "options": [
+        "Language dependent application programming",
+        "Hierarchy of objects in ASP.NET",
+        "Application programming interface",
+        "Convention for representing and interacting with objects in html documents"
+      ],
+      "correctOption": 3,
+      "points": 10
+    },
+    {
+      "question": "In which part of the HTML metadata is contained?",
+      "options": ["head tag", "title tag", "html tag", "body tag"],
+      "correctOption": 0,
+      "points": 10
+    },
+    {
+      "question": "Which element is used to get highlighted text in HTML5?",
+      "options": ["<u>", "<mark>", "<highlight>", "<b>"],
+      "correctOption": 1,
+      "points": 10
+    },
+    {
+      "question": "Which of the following is not a HTML5 tag?",
+      "options": ["<track>", "<video>", "<slider>", "<source>"],
+      "correctOption": 2,
+      "points": 10
+    },
+    {
+      "question": "How do we write comments in HTML?",
+      "options": ["</…….>", "<!……>", "</……/>", "<…….!>"],
+      "correctOption": 1,
+      "points": 10
+    },
+    {
+      "question": "Which HTML tag is used for making character appearance bold?",
+      "options": [
+        "<u>content</u>",
+        "<b>content</b>",
+        "<br>content</br>",
+        "<i>content</i>"
+      ],
+      "correctOption": 1,
+      "points": 10
+    },
+    {
+      "question": "Which HTML tag is used to insert an image?",
+      "options": [
+        "<img url=”htmllogo.jpg” />",
+        "<img alt=”htmllogo.jpg” />",
+        "<img src=”htmllogo.jpg” />",
+        "<img link=”htmllogo.jpg” />"
+      ],
+      "correctOption": 2,
+      "points": 10
+    },
+    {
+      "question": "HTML is a subset of ___________",
+      "options": ["SGMT", "SGML", "SGME", "XHTML"],
+      "correctOption": 1,
+      "points": 10
+    },
+    {
+      "question": "Which character is used to represent when a tag is closed in HTML?",
+      "options": ["#", "!", "/", "\\"],
+      "correctOption": 2,
+      "points": 10
+    },
+    {
+      "question": "Which of the following HTML code will make an image clickable?",
+      "options": [
+        "<a href=\"https://www.sanfoundry.com/\">Sanfoundry Home Page</a>",
+        "<img src=\"https://www.sanfoundry.com/sanfoundry-logo\"><a href=\"https://www.sanfoundry.com/\">Sanfoundry Home Page</a></img>",
+        "<a href=\"https://www.sanfoundry.com/\">Sanfoundry Home Page</a><img src=\"https://www.sanfoundry.com/sanfoundry-logo\" />",
+        "<a href=\"https://www.sanfoundry.com/\"><img src=\"https://www.sanfoundry.com/sanfoundry-logo\" /></a>"
+      ],
+      "correctOption": 3,
+      "points": 10
+    },
+    {
+      "question": "Among the following, which is the HTML paragraph tag?",
+      "options": ["<p>", "<pre>", "<hr>", "<a>"],
+      "correctOption": 0,
+      "points": 10
+    },
+    {
+      "question": "In HTML, which attribute is used to create a link that opens in a new window tab?",
+      "options": [
+        "src=”_blank”",
+        "alt=”_blank”",
+        "target=”_self”",
+        "target=”_blank”"
+      ],
+      "correctOption": 3,
+      "points": 10
+    },
+    {
+      "question": "Which HTML element is used for short quote?",
+      "options": ["<em>", "<abbr>", "<q>", "<blockquote>"],
+      "correctOption": 2,
+      "points": 10
+    },
+    {
+      "question": "Which of the following HTML tag is used to create an unordered list?",
+      "options": ["<ol>", "<ul>", "<li>", "<ll>"],
+      "correctOption": 1,
+      "points": 10
+    },
+    {
+      "question": "Which HTML element is used for abbreviation or acronym?",
+      "options": ["<abbr>", "<blockquote>", "<q>", "<em>"],
+      "correctOption": 0,
+      "points": 10
+    },
+    {
+      "question": "Which of the following HTML tag is used to add a row in a table?",
+      "options": ["<th>", "<td>", "<tr>", "<tt>"],
+      "correctOption": 2,
+      "points": 10
+    },
+    {
+      "question": "What is the work of <address> element in HTML5?",
+      "options": [
+        "contains IP address",
+        "contains home address",
+        "contains url",
+        "contains contact details for author"
+      ],
+      "correctOption": 3,
+      "points": 10
+    },
+    {
+      "question": "Which of the following tag is used to create a text area in HTML Form?",
+      "options": [
+        "<textarea> </textarea>",
+        "<text></text>",
+        "<input type=”text” />",
+        "<input type=”textarea” />"
+      ],
+      "correctOption": 0,
+      "points": 10
+    },
+    {
+      "question": "To show deleted text, which HTML element is used?",
+      "options": ["<del>", "<em>", "<strong>", "<ins>"],
+      "correctOption": 0,
+      "points": 10
+    },
+    {
+      "question": "What is the correct syntax of web address?",
+      "options": [
+        "port://domain.filenmae:path/scheme/prefix",
+        "prefix://scheme.port:domain/filename/path",
+        "path://prefix.port:domain/filename/scheme",
+        "scheme://prefix.domain:port/path/filename"
+      ],
+      "correctOption": 3,
+      "points": 10
+    },
+    {
+      "question": "Which tag is used to create a dropdown in HTML Form?",
+      "options": ["<input>", "<select>", "<text>", "<textarea>"],
+      "correctOption": 1,
+      "points": 10
+    },
+    {
+      "question": "Which tag is used to create a numbered list in HTML?",
+      "options": ["<ol>", "<ul>", "<li>", "<ll>"],
+      "correctOption": 0,
+      "points": 10
+    },
+    {
+      "question": "How to create a checkbox in HTML Form?",
+      "options": [
+        "<input type=”text”>",
+        "<input type=”textarea”>",
+        "<input type=”checkbox”>",
+        "<input type=”button”>"
+      ],
+      "correctOption": 2,
+      "points": 10
+    },
+    {
+      "question": "How to insert Hyperlink in HTML Page?",
+      "options": [
+        "<a href=\"https://www.sanfoundry.com/1000-html-questions-answers/\">HTML MCQ</a>",
+        "<a target=\"https://www.sanfoundry.com/1000-html-questions-answers/\" HTML Quiz />",
+        "<a src=\"https://www.sanfoundry.com/1000-html-questions-answers/\">HTML Test</a>",
+        "<a>https://www.sanfoundry.com/1000-html-questions-answers/</a>"
+      ],
+      "correctOption": 0,
+      "points": 10
+    },
+    {
+      "question": "Which of the following extension is used to save an HTML file?",
+      "options": [".hl", ".h", ".htl", ".html"],
+      "correctOption": 3,
+      "points": 10
+    },
+    {
+      "question": "Which tag is used to create a blank line in HTML?",
+      "options": ["<b>", "<br>", "<em>", "<a>"],
+      "correctOption": 1,
+      "points": 10
+    },
+    {
+      "question": "Which HTML tag is used to convert the plain text into italic format?",
+      "options": ["<b>", "<p>", "<i>", "<a>"],
+      "correctOption": 2,
+      "points": 10
+    },
+    {
+      "question": "What is the use of <hr/> tag in HTML?",
+      "options": [
+        "For making content appearance italics",
+        "To create vertical rule between sections",
+        "To create a line break",
+        "To create horizontal rule between sections"
+      ],
+      "correctOption": 3,
+      "points": 10
+    },
+    {
+      "question": "Which attribute is not essential under <img> tag in HTML?",
+      "options": ["src", "alt", "title", "height"],
+      "correctOption": 2,
+      "points": 10
+    },
+    {
+      "question": "What does the <figcaption> tag in HTML5 represent?",
+      "options": [
+        "It represents a caption or a legend for a <figure> element",
+        "It represents a caption for an <img> element",
+        "It represents a caption for an <a> element",
+        "It represents a caption for an <article> element"
+      ],
+      "correctOption": 0,
+      "points": 10
+    },
+    {
+      "question": "Which of the following attribute is used to provide an advisory text about an element or its contents?",
+      "options": ["title", "desc", "note", "textinfo"],
+      "correctOption": 0,
+      "points": 10
+    },
+    {
+      "question": "In HTML, what does the <small> element do?",
+      "options": [
+        "It makes the text bold",
+        "It makes the text italic",
+        "It makes the text smaller",
+        "It makes the text larger"
+      ],
+      "correctOption": 2,
+      "points": 10
+    },
+    {
+      "question": "Which HTML tag is used to define a hyperlink?",
+      "options": ["<link>", "<href>", "<a>", "<ref>"],
+      "correctOption": 2,
+      "points": 10
+    },
+    {
+      "question": "What is the purpose of the <meta> tag in HTML?",
+      "options": [
+        "To create metadata for the webpage",
+        "To define a new style",
+        "To create a table",
+        "To include external scripts"
+      ],
+      "correctOption": 0,
+      "points": 10
+    },
+    {
+      "question": "Which of the following is the correct way to comment in HTML?",
+      "options": [
+        "<!--This is a comment-->",
+        "//This is a comment//",
+        "#This is a comment#",
+        "/This is a comment/"
+      ],
+      "correctOption": 0,
+      "points": 10
+    },
+    {
+      "question": "In HTML, what does the <strong> tag do?",
+      "options": [
+        "It makes the text bold",
+        "It makes the text italic",
+        "It makes the text underlined",
+        "It makes the text red"
+      ],
+      "correctOption": 0,
+      "points": 10
+    },
+    {
+      "question": "What does the acronym HTML stand for?",
+      "options": [
+        "HyperText and Text Markup Language",
+        "Hyper Transfer Text Language",
+        "Hyper Text Markup Language",
+        "Hyperlink and Text Markup Language"
+      ],
+      "correctOption": 2,
+      "points": 10
+    },
+    {
+      "question": "Which of the following is the correct HTML code for creating a hyperlink?",
+      "options": [
+        "<a url='https://www.example.com'>Click here</a>",
+        "<a href='https://www.example.com'>Click here</a>",
+        "<link src='https://www.example.com'>Click here</link>",
+        "<link to='https://www.example.com'>Click here</link>"
+      ],
+      "correctOption": 1,
+      "points": 10
+    },
+    {
+      "question": "What is the purpose of the <head> tag in HTML?",
+      "options": [
+        "To define the main content of the HTML document",
+        "To define the header of the HTML document",
+        "To include external scripts and styles",
+        "To create a table in the HTML document"
+      ],
+      "correctOption": 2,
+      "points": 10
+    },
+    {
+      "question": "Which of the following elements is used to create a list with numbers in HTML?",
+      "options": ["<ol>", "<ul>", "<li>", "<dl>"],
+      "correctOption": 0,
+      "points": 10
+    },
+    {
+      "question": "What is the purpose of the alt attribute in the <img> tag?",
+      "options": [
+        "To define the alignment of the image",
+        "To specify the alternative text for the image",
+        "To define the size of the image",
+        "To link the image to another webpage"
+      ],
+      "correctOption": 1,
+      "points": 10
+    },
+    {
+      "question": "Which HTML tag is used to define an unordered list?",
+      "options": ["<ol>", "<ul>", "<li>", "<dl>"],
+      "correctOption": 1,
+      "points": 10
+    },
+    {
+      "question": "What does the <cite> tag do in HTML?",
+      "options": [
+        "It defines a citation",
+        "It defines a code element",
+        "It defines a strong emphasis",
+        "It defines a superscript"
+      ],
+      "correctOption": 0,
+      "points": 10
+    },
+    {
+      "question": "Which of the following elements is used to create a list without numbers in HTML?",
+      "options": ["<ol>", "<ul>", "<li>", "<dl>"],
+      "correctOption": 1,
+      "points": 10
+    },
+    {
+      "question": "In HTML, what does the <em> tag do?",
+      "options": [
+        "It makes the text bold",
+        "It makes the text italic",
+        "It makes the text underlined",
+        "It makes the text red"
+      ],
+      "correctOption": 1,
+      "points": 10
+    },
+    {
+      "question": "Which of the following attributes is used to specify the location of the linked document in HTML?",
+      "options": ["src", "href", "link", "url"],
+      "correctOption": 1,
+      "points": 10
+    },
+    {
+      "question": "What is the purpose of the <cite> tag in HTML?",
+      "options": [
+        "It defines a citation",
+        "It defines a code element",
+        "It defines a strong emphasis",
+        "It defines a superscript"
+      ],
+      "correctOption": 0,
+      "points": 10
+    },
+    {
+      "question": "Which of the following elements is used to create a hyperlink in HTML?",
+      "options": ["<link>", "<a>", "<href>", "<ul>"],
+      "correctOption": 1,
+      "points": 10
+    },
+    {
+      "question": "It defines a block of images",
+      "options": ["<code>", "<p>", "<b>", "<img>"],
+      "correctOption": 1,
+      "points": 10
+    },
+    {
+      "question": "What is the purpose of the <code> tag in HTML?",
+      "options": [
+        "It defines a block of code",
+        "It defines a block of text",
+        "It defines a block of links",
+        "It defines a block of images"
+      ],
+      "correctOption": 0,
+      "points": 10
+    },
+    {
+      "question": "Which of the following tags is used to create a hyperlink that opens in a new window?",
+      "options": [
+        "<a href='https://www.example.com' target='_blank'>Link</a>",
+        "<a href='https://www.example.com' target='_new'>Link</a>",
+        "<a href='https://www.example.com' target='_window'>Link</a>",
+        "<a href='https://www.example.com' target='_tab'>Link</a>"
+      ],
+      "correctOption": 0,
+      "points": 10
+    },
+    {
+      "question": "What is the purpose of the <b> tag in HTML?",
+      "options": [
+        "It defines bold text",
+        "It defines italic text",
+        "It defines underlined text",
+        "It defines highlighted text"
+      ],
+      "correctOption": 0,
+      "points": 10
+    },
+    {
+      "question": "Which of the following attributes is used to provide additional information about an element in HTML?",
+      "options": ["desc", "info", "title", "note"],
+      "correctOption": 2,
+      "points": 10
+    },
+    {
+      "question": "In HTML, what does the <i> tag do?",
+      "options": [
+        "It makes the text bold",
+        "It makes the text italic",
+        "It makes the text underlined",
+        "It makes the text red"
+      ],
+      "correctOption": 1,
+      "points": 10
+    },
+    {
+      "question": "What does the <sub> tag do in HTML?",
+      "options": [
+        "It defines a subscripted text",
+        "It defines a superscripted text",
+        "It defines a bold text",
+        "It defines an italic text"
+      ],
+      "correctOption": 0,
+      "points": 10
+    },
+    {
+      "question": "Which HTML tag is used to create a table?",
+      "options": ["<table>", "<tab>", "<tr>", "<td>"],
+      "correctOption": 0,
+      "points": 10
+    },
+    {
+      "question": "In HTML, what does the <u> tag do?",
+      "options": [
+        "It defines a subscripted text",
+        "It defines an italic text",
+        "It defines an underlined text",
+        "It defines a superscripted text"
+      ],
+      "correctOption": 2,
+      "points": 10
+    },
+    {
+      "question": "Which HTML tag is used to define the structure of an HTML document?",
+      "options": ["<html>", "<head>", "<body>", "<meta>"],
+      "correctOption": 0,
+      "points": 10
+    },
+    {
+      "question": "What does the <sup> tag do in HTML?",
+      "options": [
+        "It defines a subscripted text",
+        "It defines a superscripted text",
+        "It defines a bold text",
+        "It defines an italic text"
+      ],
+      "correctOption": 1,
+      "points": 10
+    },
+    {
+      "question": "Which HTML tag is used to define the body of an HTML document?",
+      "options": ["<body>", "<head>", "<html>", "<meta>"],
+      "correctOption": 0,
+      "points": 10
+    },
+    {
+      "question": "What is the purpose of the <div> tag in HTML?",
+      "options": [
+        "It defines a division or a section in an HTML document",
+        "It defines a hyperlink",
+        "It defines an image",
+        "It defines a table"
+      ],
+      "correctOption": 0,
+      "points": 10
+    },
+    {
+      "question": "Which HTML tag is used to define the header of an HTML document?",
+      "options": ["<head>", "<header>", "<body>", "<html>"],
+      "correctOption": 1,
+      "points": 10
+    },
+    {
+      "question": "What does the <hr> tag do in HTML?",
+      "options": [
+        "It defines a horizontal rule or line",
+        "It defines a hyperlink",
+        "It defines a division or a section",
+        "It defines an image"
+      ],
+      "correctOption": 0,
+      "points": 10
+    },
+    {
+      "question": "Which HTML tag is used to define the title of an HTML document?",
+      "options": ["<head>", "<title>", "<body>", "<html>"],
+      "correctOption": 1,
+      "points": 10
+    },
+    {
+      "question": "What is the purpose of the <span> tag in HTML?",
+      "options": [
+        "It defines a division or a section in an HTML document",
+        "It defines an image",
+        "It defines a hyperlink",
+        "It defines an inline, generic container"
+      ],
+      "correctOption": 3,
+      "points": 10
+    },
+    {
+      "question": "Which HTML tag is used to create an ordered list?",
+      "options": ["<ol>", "<ul>", "<li>", "<dl>"],
+      "correctOption": 0,
+      "points": 10
+    },
+    {
+      "question": "In HTML, what does the <br> tag do?",
+      "options": [
+        "It defines a bold text",
+        "It defines a line break",
+        "It defines an italic text",
+        "It defines an underlined text"
+      ],
+      "correctOption": 1,
+      "points": 10
+    },
+    {
+      "question": "What is the purpose of the <a> tag in HTML?",
+      "options": [
+        "It defines a division or a section in an HTML document",
+        "It defines an image",
+        "It defines a hyperlink",
+        "It defines a table"
+      ],
+      "correctOption": 2,
+      "points": 10
+    },
+    {
+      "question": "Which HTML tag is used to define a paragraph?",
+      "options": ["<p>", "<pre>", "<hr>", "<a>"],
+      "correctOption": 0,
+      "points": 10
     }
   ]
 }
